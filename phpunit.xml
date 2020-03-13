@@ -16,6 +16,13 @@
     <filter>
         <whitelist addUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">./src</directory>
+            <exclude>
+                <file>./src/TableGateway/SqlTableGateway.php</file>
+                <file>./src/TableGateway/MongoTableGateway.php</file>
+                <file>./src/DataProvider/DataProvider.php</file>
+                <directory>./src/Exception</directory>
+                <directory>./src/Rest</directory>
+            </exclude>
         </whitelist>
     </filter>
 </phpunit>

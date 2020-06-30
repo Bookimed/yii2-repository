@@ -3,9 +3,9 @@
 namespace Bookimed\Repository\Rest;
 
 use GuzzleHttp\Client;
-use Indigerd\Hydrator\Hydrator;
-use Indigerd\Repository\Rest\Exception\ClientException;
-use Indigerd\Repository\Rest\Exception\ServerException;
+use Bookimed\Hydrator\Hydrator;
+use Bookimed\Repository\Rest\Exception\ClientException;
+use Bookimed\Repository\Rest\Exception\ServerException;
 
 class RestRepository
 {

@@ -2,8 +2,8 @@
 
 namespace Bookimed\Repository;
 
-use Indigerd\Hydrator\Hydrator;
-use Indigerd\Hydrator\Strategy\ObjectStrategy;
+use Bookimed\Hydrator\Hydrator;
+use Bookimed\Hydrator\Strategy\ObjectStrategy;
 use Bookimed\Repository\Exception\InsertException;
 use Bookimed\Repository\Exception\InvalidModelClassException;
 use Bookimed\Repository\Exception\NotFoundException;

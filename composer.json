@@ -1,13 +1,13 @@
 {
-  "name": "indigerd/yii2-repository",
+  "name": "bookimed/yii2-repository",
   "description": "Repositories for Yii2",
   "keywords": ["library", "repository", "model", "hydrator", "ddd"],
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "Alexander Stepanenko",
-      "email": "alex.stepanenko@gmail.com"
+      "name": "Vladyslav Chumak",
+      "email": "aleksphesspro@gmail.com"
     }
   ],
   "repositories":[

@@ -1,17 +1,17 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\Test;
+namespace Bookimed\Repository\Test;
 
 use Indigerd\Hydrator\Hydrator;
-use Indigerd\Repository\Exception\InvalidModelClassException;
-use Indigerd\Repository\Exception\NotFoundException;
-use Indigerd\Repository\Relation\Relation;
-use Indigerd\Repository\Relation\RelationCollection;
-use Indigerd\Repository\Repository;
-use Indigerd\Repository\TableGateway\SqlTableGateway;
-use Indigerd\Repository\Test\Fixture\Article;
-use Indigerd\Repository\Test\Fixture\ArticleCategoryRelation;
-use Indigerd\Repository\Test\Fixture\ArticleRelationCollection;
+use Bookimed\Repository\Exception\InvalidModelClassException;
+use Bookimed\Repository\Exception\NotFoundException;
+use Bookimed\Repository\Relation\Relation;
+use Bookimed\Repository\Relation\RelationCollection;
+use Bookimed\Repository\Repository;
+use Bookimed\Repository\TableGateway\SqlTableGateway;
+use Bookimed\Repository\Test\Fixture\Article;
+use Bookimed\Repository\Test\Fixture\ArticleCategoryRelation;
+use Bookimed\Repository\Test\Fixture\ArticleRelationCollection;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

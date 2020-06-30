@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\Test\DataProvider;
+namespace Bookimed\Repository\Test\DataProvider;
 
-use Indigerd\Repository\Repository;
-use Indigerd\Repository\DataProvider\DataProvider;
-use Indigerd\Repository\DataProvider\DataProviderFactory;
+use Bookimed\Repository\Repository;
+use Bookimed\Repository\DataProvider\DataProvider;
+use Bookimed\Repository\DataProvider\DataProviderFactory;
 use PHPUnit\Framework\TestCase;
 
 class DataProviderFactoryTest extends TestCase

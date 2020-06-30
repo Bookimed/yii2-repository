@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\DataProvider;
+namespace Bookimed\Repository\DataProvider;
 
-use Indigerd\Repository\Repository;
+use Bookimed\Repository\Repository;
 
 class DataProviderFactory
 {

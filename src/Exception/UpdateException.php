@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\Exception;
+namespace Bookimed\Repository\Exception;
 
 use Throwable;
 

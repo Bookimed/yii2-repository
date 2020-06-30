@@ -3,7 +3,7 @@
 namespace Indigerd\Repository\Test\Relation;
 
 use PHPUnit\Framework\TestCase;
-use Indigerd\Repository\Relation\Relation;
+use Bookimed\Repository\Relation\Relation;
 
 class RelationTest extends TestCase
 {

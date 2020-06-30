@@ -1,8 +1,8 @@
 <?php
 
-namespace Indigerd\Repository\Test\Fixture;
+namespace Bookimed\Repository\Test\Fixture;
 
-use Indigerd\Repository\Relation\RelationCollection;
+use Bookimed\Repository\Relation\RelationCollection;
 
 class ArticleRelationCollection extends RelationCollection
 {

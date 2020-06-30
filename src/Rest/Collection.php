@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\Rest;
+namespace Bookimed\Repository\Rest;
 
 class Collection implements \IteratorAggregate
 {

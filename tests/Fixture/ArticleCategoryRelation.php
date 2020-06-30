@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\Test\Fixture;
+namespace Bookimed\Repository\Test\Fixture;
 
-use Indigerd\Repository\Relation\Relation;
+use Bookimed\Repository\Relation\Relation;
 
 class ArticleCategoryRelation extends Relation
 {

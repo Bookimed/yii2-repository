@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\TableGateway;
+namespace Bookimed\Repository\TableGateway;
 
-use Indigerd\Repository\Query\MongoQueryFactory;
+use Bookimed\Repository\Query\MongoQueryFactory;
 use MongoDB\BSON\ObjectId;
 use yii\mongodb\Connection;
 use yii\mongodb\Query;
-use Indigerd\Repository\Exception\DeleteException;
-use Indigerd\Repository\Exception\UpdateException;
+use Bookimed\Repository\Exception\DeleteException;
+use Bookimed\Repository\Exception\UpdateException;
 
 class MongoTableGateway implements TableGatewayInterface
 {

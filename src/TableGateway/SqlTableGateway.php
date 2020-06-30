@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\TableGateway;
+namespace Bookimed\Repository\TableGateway;
 
-use Indigerd\Repository\Query\SqlQueryFactory;
+use Bookimed\Repository\Query\SqlQueryFactory;
 use yii\db\Connection;
 use yii\db\Query;
 use yii\db\Expression;
-use Indigerd\Repository\Exception\UpdateException;
-use Indigerd\Repository\Exception\DeleteException;
-use Indigerd\Repository\Relation\Relation;
+use Bookimed\Repository\Exception\UpdateException;
+use Bookimed\Repository\Exception\DeleteException;
+use Bookimed\Repository\Relation\Relation;
 use yii\db\TableSchema;
 
 class SqlTableGateway implements TableGatewayInterface

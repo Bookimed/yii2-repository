@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository;
+namespace Bookimed\Repository;
 
-use Indigerd\Repository\Exception\NotFoundException;
+use Bookimed\Repository\Exception\NotFoundException;
 
 interface RepositoryInterface
 {

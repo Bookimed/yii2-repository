@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\Test\Query;
+namespace Bookimed\Repository\Test\Query;
 
-use Indigerd\Repository\Query\MongoQueryFactory;
+use Bookimed\Repository\Query\MongoQueryFactory;
 use PHPUnit\Framework\TestCase;
 use yii\mongodb\Query;
 

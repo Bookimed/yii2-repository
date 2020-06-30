@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\Query;
+namespace Bookimed\Repository\Query;
 
 use yii\db\Query;
 

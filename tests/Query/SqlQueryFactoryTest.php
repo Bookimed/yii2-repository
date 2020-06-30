@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\Test\Query;
+namespace Bookimed\Repository\Test\Query;
 
-use Indigerd\Repository\Query\SqlQueryFactory;
+use Bookimed\Repository\Query\SqlQueryFactory;
 use PHPUnit\Framework\TestCase;
 use yii\db\Query;
 

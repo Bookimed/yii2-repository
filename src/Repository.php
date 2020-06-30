@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository;
+namespace Bookimed\Repository;
 
 use Indigerd\Hydrator\Hydrator;
 use Indigerd\Hydrator\Strategy\ObjectStrategy;
-use Indigerd\Repository\Exception\InsertException;
-use Indigerd\Repository\Exception\InvalidModelClassException;
-use Indigerd\Repository\Exception\NotFoundException;
-use Indigerd\Repository\Relation\Relation;
-use Indigerd\Repository\Relation\RelationCollection;
-use Indigerd\Repository\TableGateway\TableGatewayInterface;
+use Bookimed\Repository\Exception\InsertException;
+use Bookimed\Repository\Exception\InvalidModelClassException;
+use Bookimed\Repository\Exception\NotFoundException;
+use Bookimed\Repository\Relation\Relation;
+use Bookimed\Repository\Relation\RelationCollection;
+use Bookimed\Repository\TableGateway\TableGatewayInterface;
 
 class Repository implements RepositoryInterface
 {

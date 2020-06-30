@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Indigerd\Repository\Test\Relation;
+namespace Bookimed\Repository\Test\Relation;
 
-use Indigerd\Repository\Relation\Relation;
+use Bookimed\Repository\Relation\Relation;
 use PHPUnit\Framework\TestCase;
-use Indigerd\Repository\Relation\RelationCollection;
-use Indigerd\Repository\Example\Domain\Relation\ArticleCategoryRelation;
+use Bookimed\Repository\Relation\RelationCollection;
+use Bookimed\Repository\Example\Domain\Relation\ArticleCategoryRelation;
 
 class RelationCollectionTest extends TestCase
 {

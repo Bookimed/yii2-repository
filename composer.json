@@ -28,13 +28,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Indigerd\\Repository\\": "src"
+      "Bookimed\\Repository\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Indigerd\\Repository\\Test\\": "tests",
-      "Indigerd\\Repository\\Example\\": "example"
+      "Bookimed\\Repository\\Test\\": "tests",
+      "Bookimed\\Repository\\Example\\": "example"
     }
   }
 }
